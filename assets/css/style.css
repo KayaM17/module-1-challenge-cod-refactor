@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Made some changes to CSS proerties and used semantic structure  */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -53,7 +55,7 @@ p {
 .hero {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -61,21 +63,38 @@ p {
 
 .float-left {
     float: left;
-    margin-right: 25px;
+    margin-right: 26px;
 }
 
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: 26px;
 }
 
-.content {
+main section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+section article {
+    margin-right: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #095c89;
+    color: #ffffff;
+}
+
+section article img {
+    margin-bottom: 200px;
+}
+section article h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.benefit {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -83,37 +102,32 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    color: #2589bd
 }
-
-.benefit-lead {
+aside article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+aside article  h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
+aside article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
     text-align: center;
+}
+footer h2 {
+    font-size: 20px;
 }
 
 .benefit-lead img {
